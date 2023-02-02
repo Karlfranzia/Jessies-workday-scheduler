@@ -23,7 +23,7 @@ $(function () {
     hour = (i - 12) + "PM";
   }
   var hourId = "hour-" + i;
-  // Create a row to hold the hour, text area, and save button
+  // Create a row to hold content
   var row = $("<div>").addClass("row time-block").attr("id", hourId);
 
   // make the container for text area and button
